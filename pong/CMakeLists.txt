@@ -10,6 +10,7 @@ add_definitions(-std=c++17)
 
 set(CXX_FLAGS "-Wall -ggdb ${CMAKE_CXX_FLAGS}")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(SDL2 REQUIRED)
 find_package(SDL2_ttf REQUIRED)
